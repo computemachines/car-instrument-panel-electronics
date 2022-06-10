@@ -1,0 +1,794 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/tparker/projects/car-instrument-panel-electronics/car-instrument-panel.kicad_sch</source>
+    <date>Wed 08 Jun 2022 05:26:04 PM EDT</date>
+    <tool>Eeschema 6.0.5-a6ca702e91~116~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Lebaron Instrument Panel</title>
+        <company>computemachines</company>
+        <rev>0</rev>
+        <date/>
+        <source>car-instrument-panel.kicad_sch</source>
+        <comment number="1" value="Tyler Parker"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>Conn_01x03</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="car-instrument-panel.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5ce7fa1a-6316-4692-b864-e69a59550b8e</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>2N3904</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="2N3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="car-instrument-panel.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>31c0a42a-c75b-46a1-b98c-98fe6f2a12a6</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>2N3904</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="2N3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="car-instrument-panel.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>705b0bc3-9554-496d-9396-45172fcd2962</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>2N3904</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="2N3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="car-instrument-panel.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>903a3669-ba8d-4d1c-bfdf-ea3b53e07873</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>2N3904</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="2N3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="car-instrument-panel.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>666032c3-4d6e-4dd7-aec9-1130ac28a9b9</tstamps>
+    </comp>
+    <comp ref="Q5">
+      <value>2N3904</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="2N3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="car-instrument-panel.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7a1a0df8-5ce1-4b29-a266-32bce009120d</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>47</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="car-instrument-panel.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7e238f4f-e7b2-4cfb-a438-7f001f367671</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>47</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="car-instrument-panel.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>de388a8a-4c5a-4aa5-a462-1ca79c17d951</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>47</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="car-instrument-panel.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ceb1fe3d-c44c-4697-a9cf-9b3a97a7a63a</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>47</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="car-instrument-panel.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b4905723-8d64-4cb9-ab8c-f8ae80686780</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>47</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="car-instrument-panel.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c7883b6a-4312-49ab-af30-77ac7b774cac</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>47</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="car-instrument-panel.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9943297f-9dfe-4783-98a1-3fdb0a735a09</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>47</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="car-instrument-panel.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>47fbffa5-23e4-44d6-938a-cdf8846b1157</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>47</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="car-instrument-panel.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1355bd9d-3b06-48d3-8ec7-3e097e830bf8</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="car-instrument-panel.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5fbaa999-88f8-451c-8beb-3252000d0aa3</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="car-instrument-panel.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b6b355af-3568-49f8-b2c7-9b7602776e3e</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="car-instrument-panel.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>611c10a7-0f1d-456f-a2ab-a774f4f8371f</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="car-instrument-panel.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e094abe5-5a8b-4181-9f41-f3e10c8c4ba5</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>?</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="car-instrument-panel.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>64cf0894-0bdf-4f10-9822-948b4ca26ae2</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>?</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="car-instrument-panel.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cd75e299-86e1-4320-b930-e059ff9e6dba</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="car-instrument-panel.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>306f3e53-048b-4e69-a4a3-358a9b9485a0</tstamps>
+    </comp>
+    <comp ref="RV1">
+      <value>10k</value>
+      <footprint>Potentiometer_THT:Potentiometer_ACP_CA9-V10_Vertical</footprint>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="car-instrument-panel.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8794900f-ad88-4ea0-9725-4560a06a7f65</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>LM1602A</value>
+      <footprint>_computemachines:LCM1602A</footprint>
+      <libsource lib="_computemachines_symbol_library" part="LM1602A" description="2 Lines, 16 character transreflective LCD with backlight"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="car-instrument-panel.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8f591ce0-a9c8-4365-ac73-8fe33e170bb7</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>RaspberryPi-Pico</value>
+      <footprint>_computemachines:RPi_Pico_SMD_TH</footprint>
+      <libsource lib="_computemachines_symbol_library" part="RaspberryPi-Pico" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="car-instrument-panel.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7eb32ed1-4320-49ba-8487-1c88e4824fe3</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>74HC595</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</datasheet>
+      <libsource lib="74xx" part="74HC595" description="8-bit serial in/out Shift Register 3-State Outputs"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="car-instrument-panel.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f26da05e-d106-45c0-b44e-985ad5c3d56e</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>HS420561K-32</value>
+      <footprint>_computemachines:HS420561K-32</footprint>
+      <libsource lib="_computemachines_symbol_library" part="HS420561K-32" description="4 digit 7 segment hyper red, common anode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="car-instrument-panel.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>32015a24-eafb-4e50-a00a-f6fa6c192459</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>ADJ_SWITCH_REG</value>
+      <footprint>_computemachines:Adjust_Switch_Regulator_Module_B08R6337QY</footprint>
+      <libsource lib="_computemachines_symbol_library" part="ADJ_SWITCH_REG" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="car-instrument-panel.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>abc7216f-a215-478e-afc8-8d72757a3d82</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="74xx" part="74HC595">
+      <description>8-bit serial in/out Shift Register 3-State Outputs</description>
+      <docs>http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*3.9x9.9mm*P1.27mm*</fp>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+        <fp>SOIC*5.3x10.2mm*P1.27mm*</fp>
+        <fp>SOIC*7.5x10.3mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74HC595</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="QB" type="tri_state"/>
+        <pin num="2" name="QC" type="tri_state"/>
+        <pin num="3" name="QD" type="tri_state"/>
+        <pin num="4" name="QE" type="tri_state"/>
+        <pin num="5" name="QF" type="tri_state"/>
+        <pin num="6" name="QG" type="tri_state"/>
+        <pin num="7" name="QH" type="tri_state"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="QH'" type="output"/>
+        <pin num="10" name="~{SRCLR}" type="input"/>
+        <pin num="11" name="SRCLK" type="input"/>
+        <pin num="12" name="RCLK" type="input"/>
+        <pin num="13" name="~{OE}" type="input"/>
+        <pin num="14" name="SER" type="input"/>
+        <pin num="15" name="QA" type="tri_state"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Potentiometer">
+      <description>Potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_Potentiometer</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="2N3904">
+      <description>0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92</description>
+      <docs>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N3904</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="_computemachines_symbol_library" part="ADJ_SWITCH_REG">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADJ_SWITCH_REG</field>
+        <field name="Footprint">_computemachines:Adjust_Switch_Regulator_Module_B08R6337QY</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VO+" type="power_out"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="IN+" type="power_in"/>
+        <pin num="4" name="EN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="_computemachines_symbol_library" part="HS420561K-32">
+      <description>4 digit 7 segment hyper red, common anode</description>
+      <footprints>
+        <fp>LTC?4627J*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">HS420561K-32</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="input"/>
+        <pin num="2" name="D" type="input"/>
+        <pin num="3" name="DP" type="input"/>
+        <pin num="4" name="C" type="input"/>
+        <pin num="5" name="G" type="input"/>
+        <pin num="6" name="CA4" type="input"/>
+        <pin num="7" name="B" type="input"/>
+        <pin num="8" name="CA3" type="input"/>
+        <pin num="9" name="CA2" type="input"/>
+        <pin num="10" name="F" type="input"/>
+        <pin num="11" name="A" type="input"/>
+        <pin num="12" name="CA1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="_computemachines_symbol_library" part="LM1602A">
+      <description>2 Lines, 16 character transreflective LCD with backlight</description>
+      <footprints>
+        <fp>*LM16255*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM1602A</field>
+        <field name="Footprint">_computemachines:LCM1602A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VSS" type="power_in"/>
+        <pin num="2" name="VDD" type="power_in"/>
+        <pin num="3" name="VO" type="power_in"/>
+        <pin num="4" name="RS" type="input"/>
+        <pin num="5" name="R/W" type="input"/>
+        <pin num="6" name="E" type="input"/>
+        <pin num="7" name="DB0" type="bidirectional"/>
+        <pin num="8" name="DB1" type="bidirectional"/>
+        <pin num="9" name="DB2" type="bidirectional"/>
+        <pin num="10" name="DB3" type="bidirectional"/>
+        <pin num="11" name="DB4" type="bidirectional"/>
+        <pin num="12" name="DB5" type="bidirectional"/>
+        <pin num="13" name="DB6" type="bidirectional"/>
+        <pin num="14" name="DB7" type="bidirectional"/>
+        <pin num="15" name="LED+" type="power_in"/>
+        <pin num="16" name="LED-" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="_computemachines_symbol_library" part="RaspberryPi-Pico">
+      <fields>
+        <field name="Reference">U2</field>
+        <field name="Value">RaspberryPi-Pico</field>
+        <field name="Footprint">RPi_Pico:RPi_Pico_SMD_TH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GPIO0" type="bidirectional"/>
+        <pin num="2" name="GPIO1" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="GPIO2" type="bidirectional"/>
+        <pin num="5" name="GPIO3" type="bidirectional"/>
+        <pin num="6" name="GPIO4" type="bidirectional"/>
+        <pin num="7" name="GPIO5" type="bidirectional"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="GPIO6" type="bidirectional"/>
+        <pin num="10" name="GPIO7" type="bidirectional"/>
+        <pin num="11" name="GPIO8" type="bidirectional"/>
+        <pin num="12" name="GPIO9" type="bidirectional"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="GPIO10" type="bidirectional"/>
+        <pin num="15" name="GPIO11" type="bidirectional"/>
+        <pin num="16" name="GPIO12" type="bidirectional"/>
+        <pin num="17" name="GPIO13" type="bidirectional"/>
+        <pin num="18" name="GND" type="power_in"/>
+        <pin num="19" name="GPIO14" type="bidirectional"/>
+        <pin num="20" name="GPIO15" type="bidirectional"/>
+        <pin num="21" name="GPIO16" type="bidirectional"/>
+        <pin num="22" name="GPIO17" type="bidirectional"/>
+        <pin num="23" name="GND" type="power_in"/>
+        <pin num="24" name="GPIO18" type="bidirectional"/>
+        <pin num="25" name="GPIO19" type="bidirectional"/>
+        <pin num="26" name="GPIO20" type="bidirectional"/>
+        <pin num="27" name="GPIO21" type="bidirectional"/>
+        <pin num="28" name="GND" type="power_in"/>
+        <pin num="29" name="GPIO22" type="bidirectional"/>
+        <pin num="30" name="RUN" type="input"/>
+        <pin num="31" name="GPIO26_ADC0" type="bidirectional"/>
+        <pin num="32" name="GPIO27_ADC1" type="bidirectional"/>
+        <pin num="33" name="AGND" type="power_in"/>
+        <pin num="34" name="GPIO28_ADC2" type="bidirectional"/>
+        <pin num="35" name="ADC_VREF" type="unspecified"/>
+        <pin num="36" name="3V3" type="unspecified"/>
+        <pin num="37" name="3V3_EN" type="input"/>
+        <pin num="38" name="GND" type="power_in"/>
+        <pin num="39" name="VSYS" type="power_in"/>
+        <pin num="40" name="VBUS" type="power_in"/>
+        <pin num="41" name="SWCLK" type="input"/>
+        <pin num="42" name="GND" type="power_in"/>
+        <pin num="43" name="SWDIO" type="bidirectional"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="74xx">
+      <uri>/usr/share/kicad/symbols//74xx.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>/usr/share/kicad/symbols//Transistor_BJT.kicad_sym</uri>
+    </library>
+    <library logical="_computemachines_symbol_library">
+      <uri>/home/tparker/projects/kicad-libraries/computemachines_symbol_library.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="RV1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="LED+" pintype="power_in"/>
+      <node ref="U1" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U2" pin="40" pinfunction="VBUS" pintype="power_in"/>
+      <node ref="U3" pin="10" pinfunction="~{SRCLR}" pintype="input"/>
+      <node ref="U3" pin="16" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U5" pin="1" pinfunction="VO+" pintype="power_out"/>
+    </net>
+    <net code="2" name="+12V">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="IN+" pintype="power_in"/>
+    </net>
+    <net code="3" name="/DIGIT1">
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U2" pin="29" pinfunction="GPIO22" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/DIGIT2">
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="U2" pin="27" pinfunction="GPIO21" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/DIGIT3">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="U2" pin="26" pinfunction="GPIO20" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/DIGIT4">
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U2" pin="21" pinfunction="GPIO16" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/LCM_BUS1">
+      <node ref="U1" pin="4" pinfunction="RS" pintype="input"/>
+      <node ref="U2" pin="17" pinfunction="GPIO13" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/LCM_BUS2">
+      <node ref="U1" pin="5" pinfunction="R/W" pintype="input"/>
+      <node ref="U2" pin="16" pinfunction="GPIO12" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/LCM_BUS3">
+      <node ref="U1" pin="6" pinfunction="E" pintype="input"/>
+      <node ref="U2" pin="15" pinfunction="GPIO11" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/LCM_BUS4">
+      <node ref="U1" pin="7" pinfunction="DB0" pintype="bidirectional"/>
+      <node ref="U2" pin="14" pinfunction="GPIO10" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/LCM_BUS5">
+      <node ref="U1" pin="8" pinfunction="DB1" pintype="bidirectional"/>
+      <node ref="U2" pin="12" pinfunction="GPIO9" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/LCM_BUS6">
+      <node ref="U1" pin="9" pinfunction="DB2" pintype="bidirectional"/>
+      <node ref="U2" pin="11" pinfunction="GPIO8" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/LCM_BUS7">
+      <node ref="U1" pin="10" pinfunction="DB3" pintype="bidirectional"/>
+      <node ref="U2" pin="10" pinfunction="GPIO7" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/LCM_BUS8">
+      <node ref="U1" pin="11" pinfunction="DB4" pintype="bidirectional"/>
+      <node ref="U2" pin="9" pinfunction="GPIO6" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/LCM_BUS9">
+      <node ref="U1" pin="12" pinfunction="DB5" pintype="bidirectional"/>
+      <node ref="U2" pin="7" pinfunction="GPIO5" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/LCM_BUS10">
+      <node ref="U1" pin="13" pinfunction="DB6" pintype="bidirectional"/>
+      <node ref="U2" pin="6" pinfunction="GPIO4" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/LCM_BUS11">
+      <node ref="U1" pin="14" pinfunction="DB7" pintype="bidirectional"/>
+      <node ref="U2" pin="5" pinfunction="GPIO3" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/SEG1">
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="QB" pintype="tri_state"/>
+    </net>
+    <net code="19" name="/SEG2">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="QC" pintype="tri_state"/>
+    </net>
+    <net code="20" name="/SEG3">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="QD" pintype="tri_state"/>
+    </net>
+    <net code="21" name="/SEG4">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="QE" pintype="tri_state"/>
+    </net>
+    <net code="22" name="/SEG5">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="QF" pintype="tri_state"/>
+    </net>
+    <net code="23" name="/SEG6">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="QG" pintype="tri_state"/>
+    </net>
+    <net code="24" name="/SEG7">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="QH" pintype="tri_state"/>
+    </net>
+    <net code="25" name="/SEG8">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U3" pin="15" pinfunction="QA" pintype="tri_state"/>
+    </net>
+    <net code="26" name="/SPI CS (latch)">
+      <node ref="U2" pin="22" pinfunction="GPIO17" pintype="bidirectional"/>
+      <node ref="U3" pin="12" pinfunction="RCLK" pintype="input"/>
+    </net>
+    <net code="27" name="/SPI SCK">
+      <node ref="U2" pin="24" pinfunction="GPIO18" pintype="bidirectional"/>
+      <node ref="U3" pin="11" pinfunction="SRCLK" pintype="input"/>
+    </net>
+    <net code="28" name="/SPI TX (COPI)">
+      <node ref="U2" pin="25" pinfunction="GPIO19" pintype="bidirectional"/>
+      <node ref="U3" pin="14" pinfunction="SER" pintype="input"/>
+    </net>
+    <net code="29" name="/TACHOMETER">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="GPIO1" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="GND">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="Q3" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="Q4" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="RV1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U2" pin="13" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="18" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="23" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="28" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="33" pinfunction="AGND" pintype="power_in"/>
+      <node ref="U2" pin="38" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="13" pinfunction="~{OE}" pintype="input"/>
+      <node ref="U3" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="2" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="31" name="Net-(Q1-Pad2)">
+      <node ref="Q1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(Q1-Pad3)">
+      <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="U4" pin="6" pinfunction="CA4" pintype="input"/>
+    </net>
+    <net code="33" name="Net-(Q2-Pad2)">
+      <node ref="Q2" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(Q2-Pad3)">
+      <node ref="Q2" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="U4" pin="8" pinfunction="CA3" pintype="input"/>
+    </net>
+    <net code="35" name="Net-(Q3-Pad2)">
+      <node ref="Q3" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(Q3-Pad3)">
+      <node ref="Q3" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="U4" pin="9" pinfunction="CA2" pintype="input"/>
+    </net>
+    <net code="37" name="Net-(Q4-Pad2)">
+      <node ref="Q4" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(Q4-Pad3)">
+      <node ref="Q4" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="U4" pin="12" pinfunction="CA1" pintype="input"/>
+    </net>
+    <net code="39" name="Net-(Q5-Pad1)">
+      <node ref="Q5" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(Q5-Pad2)">
+      <node ref="Q5" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(Q5-Pad3)">
+      <node ref="Q5" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="LED-" pintype="power_in"/>
+    </net>
+    <net code="42" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="E" pintype="input"/>
+    </net>
+    <net code="43" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="D" pintype="input"/>
+    </net>
+    <net code="44" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="DP" pintype="input"/>
+    </net>
+    <net code="45" name="Net-(R4-Pad2)">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="C" pintype="input"/>
+    </net>
+    <net code="46" name="Net-(R5-Pad2)">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="47" name="Net-(R6-Pad2)">
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U4" pin="7" pinfunction="B" pintype="input"/>
+    </net>
+    <net code="48" name="Net-(R7-Pad2)">
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U4" pin="10" pinfunction="F" pintype="input"/>
+    </net>
+    <net code="49" name="Net-(R8-Pad2)">
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U4" pin="11" pinfunction="A" pintype="input"/>
+    </net>
+    <net code="50" name="Net-(R15-Pad2)">
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="U2" pin="20" pinfunction="GPIO15" pintype="bidirectional"/>
+    </net>
+    <net code="51" name="Net-(R16-Pad2)">
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="U5" pin="4" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="52" name="Net-(RV1-Pad2)">
+      <node ref="RV1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="VO" pintype="power_in"/>
+    </net>
+    <net code="53" name="unconnected-(U2-Pad1)">
+      <node ref="U2" pin="1" pinfunction="GPIO0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(U2-Pad4)">
+      <node ref="U2" pin="4" pinfunction="GPIO2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(U2-Pad19)">
+      <node ref="U2" pin="19" pinfunction="GPIO14" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(U2-Pad30)">
+      <node ref="U2" pin="30" pinfunction="RUN" pintype="input+no_connect"/>
+    </net>
+    <net code="57" name="unconnected-(U2-Pad31)">
+      <node ref="U2" pin="31" pinfunction="GPIO26_ADC0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(U2-Pad32)">
+      <node ref="U2" pin="32" pinfunction="GPIO27_ADC1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(U2-Pad34)">
+      <node ref="U2" pin="34" pinfunction="GPIO28_ADC2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(U2-Pad35)">
+      <node ref="U2" pin="35" pinfunction="ADC_VREF" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(U2-Pad36)">
+      <node ref="U2" pin="36" pinfunction="3V3" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(U2-Pad37)">
+      <node ref="U2" pin="37" pinfunction="3V3_EN" pintype="input+no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(U2-Pad39)">
+      <node ref="U2" pin="39" pinfunction="VSYS" pintype="power_in+no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(U2-Pad41)">
+      <node ref="U2" pin="41" pinfunction="SWCLK" pintype="input+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(U2-Pad42)">
+      <node ref="U2" pin="42" pinfunction="GND" pintype="power_in+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(U2-Pad43)">
+      <node ref="U2" pin="43" pinfunction="SWDIO" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(U3-Pad9)">
+      <node ref="U3" pin="9" pinfunction="QH'" pintype="output+no_connect"/>
+    </net>
+  </nets>
+</export>
